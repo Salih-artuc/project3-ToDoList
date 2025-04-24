@@ -6,6 +6,18 @@ h1{
     text-align: center;
 }
 
+@media (max-width: 600px) {
+    .row {
+        width: 100% !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #back-Page {
+        width: 80vw !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
 #delete-all{
     background-color: red;
     color: white;

@@ -8,8 +8,10 @@ document.getElementById('clear').addEventListener('click', function(){
 })
 
 function add (){
-    if(textInputBox.value.length <= 5)
+    if(textInputBox.value.length <= 5){
         alert("Minimum karakter sayısı 5'tir. Lütfen 5 ve ya 5'den fazla karakter giriniz.");
+        li.style.display = 'none';
+    }
 
     else{
         let li = document.createElement('li');
